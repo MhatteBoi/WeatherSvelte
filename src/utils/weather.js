@@ -1,5 +1,5 @@
 import  Axios  from "axios";
-const API_KEY = '4043cc65322e9574da5a99b070bc7291';
+const API_KEY = import.meta.env.VITE_API_KEY;
 
 export async function fetchWeather(location){
     try{
